@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.landingPage{
+  margin-top: 5rem;
+  grid-area: fullviewport ;
+  background-color: #db5d3b;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./004.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./004.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.heading{
+  justify-self: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  grid-column-start: 1 ;
+  grid-column-end: 3;
+
+}
+.para{
+
+  justify-self: top;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  grid-column-start: 1 ;
+  grid-column-end: 3;
+
+}

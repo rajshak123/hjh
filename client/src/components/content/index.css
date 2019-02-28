@@ -1,0 +1,7 @@
+.content{
+  grid-area: content ;
+  background-color:blueviolet;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}

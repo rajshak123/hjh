@@ -1,0 +1,103 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+
+
+
+.footer{
+  grid-area: footer ;
+  background-color:#504e4d;
+  display: grid;
+  justify-content: center
+  /* grid-template-columns: 2fr 1fr; */
+}
+
+
+
+.socialMediaLinks {
+  background: #323b40;
+  overflow: hidden;
+  padding-bottom: 4px;
+  text-align: center;
+}
+.ul {
+  margin: 0;
+  padding: 0;
+}
+.li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.a {
+  border-bottom: 0px solid rgba(0, 0, 0, 0.95);
+  border-radius: 4px;
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0), 0 6px 8px rgba(0, 0, 0, 0), 0 24px 24px rgba(0, 0, 0, 0), 0 36px 36px rgba(0, 0, 0, 0), 0 64px 64px rgba(0, 0, 0, 0), 0 64px 128px rgba(0, 0, 0, 0), 0 120px 0 rgba(0, 0, 0, 0), 0 86px 8px 6px rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 30px;
+  padding: 20px;
+  position: relative;
+  transition: 0.2s ease-in;
+  width: 30px;
+}
+.svg {
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  height: 30px;
+  width: 30px;
+}
+.svg>path{
+  fill: rgba(0, 0, 0, 0);
+  transition: 0.2s ease-in;
+}
+.svg1 {
+  left: 20px;
+  position: absolute;
+  top: 20px;
+  height: 30px;
+  width: 30px;
+}
+.svg1>path{
+  fill: #0096a1;
+  transition: 0.2s ease-in;
+}
+
+a:hover {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><f…ter id="filter"><feGaussianBlur stdDeviation="10" /></filter></svg>#filter');
+  -webkit-filter: blur(0.2px);
+          filter: blur(0.2px);
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.05), 0 24px 24px rgba(0, 0, 0, 0.05), 0 36px 36px rgba(0, 0, 0, 0.05), 0 64px 64px rgba(0, 0, 0, 0.15), 0 64px 128px rgba(0, 0, 0, 0.15), 0 86px 8px 6px rgba(14, 186, 199, 0.25), 0 83px 4px 0px rgba(14, 186, 199, 0.95);
+}
+/* footer div.social-media-links a:hover {
+  
+} */
+/* footer div.social-media-links a svg.glow path,
+footer div.social-media-links a svg.glow circle {
+  fill: rgba(0, 0, 0, 0);
+}
+footer div.social-media-links a svg path,
+footer div.social-media-links a svg circle {
+  fill: #0096a1;
+  transition: 0.2s ease-in;
+}
+footer div.social-media-links a:hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.05), 0 24px 24px rgba(0, 0, 0, 0.05), 0 36px 36px rgba(0, 0, 0, 0.05), 0 64px 64px rgba(0, 0, 0, 0.15), 0 64px 128px rgba(0, 0, 0, 0.15), 0 86px 8px 6px rgba(14, 186, 199, 0.25), 0 83px 4px 0px rgba(14, 186, 199, 0.95);
+}
+footer div.social-media-links a:hover svg.glow {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><f…ter id="filter"><feGaussianBlur stdDeviation="10" /></filter></svg>#filter');
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+footer div.social-media-links a:hover svg.glow path,
+footer div.social-media-links a:hover svg.glow circle {
+  fill: rgba(14, 186, 199, 0.6);
+}
+footer div.social-media-links a:hover svg path,
+footer div.social-media-links a:hover svg circle {
+  fill: #0ebac7;
+} */
