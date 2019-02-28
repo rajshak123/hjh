@@ -10,7 +10,7 @@ services:
       dockerfile: Dockerfile.dev
       context: ./nginx
     ports:
-      - '3050:80'
+      - '3055:80'
   api:
     build:
       dockerfile: Dockerfile.dev
@@ -19,6 +19,8 @@ services:
       - /app/node_modules
       - ./server:/app
     links:
+      - mongo
+    depends_on:
       - mongo
     environment:
       - REDIS_HOST=redis

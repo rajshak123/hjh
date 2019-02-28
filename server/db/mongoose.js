@@ -3,7 +3,7 @@
  */
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://mongo:27017/local');
+mongoose.connect('mongodb://mongo:27017/');
 module.exports = {
   mongoose
 }
